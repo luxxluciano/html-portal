@@ -46,7 +46,7 @@
     color: white;
 }
 .topoleft li .ativo{
-    color: orange;
+    color: #FFA937;
 }
 .topobusca{
     width: 110px;
@@ -63,6 +63,99 @@
 .toporight img{
     margin-right: 5px;
 }
+.topo2{
+    height: 95px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 221, 221);
+}
+.topo2int{
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+.logo{
+    width: 230px;
+    height: 88px;
+    float: left;
+    margin-top: 7px;
+}
+.topo2 .banner{
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    background-color: #FF5938;
+}
+.menu{
+    height: 40px;
+    background-color: #FFA937;
+}
+.menuint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+.menuint ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menuint li{
+
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;    
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.menuint li a{
+    text-decoration: none;
+    color: #0474B3;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif 
+}
+.submenu{
+    width: 150px;
+    background-color: #FFA937;
+    position: absolute;
+    display: none;
+}
+.submenuitem{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.submenuitem:hover{
+    background-color: #FFCA85;
+}
+.ultimasnoticias{
+    height: 50px;
+}
+.ultimasnoticiasint{
+    width: 100%;
+    max-width: 1040px;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(129, 129, 129);
+}
+.ultnoticiasarea{
+    height: 28px;
+    background-color: aliceblue;
+    border: 1px solid #CCC
+}
+
+
+
+
+
+
+
 
 
 
