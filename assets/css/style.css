@@ -75,13 +75,21 @@
     margin: auto;
 }
 .logo{
+    width: 100px;
+    height: 88px;
+    float: left;
+    margin-top: 7px;
+    text-align: left;
+}
+.logo2{
     width: 230px;
     height: 88px;
     float: left;
     margin-top: 7px;
+    text-align: left;
 }
 .topo2 .banner{
-    width: 650px;
+    width: 550px;
     height: 80px;
     float: right;
     margin-top: 7px;
@@ -182,11 +190,27 @@
     width: 275px;
     min-height: 200px;
     float: right;
-    background-color: #999;
     margin-left: 12px;
 }
-
-
+.widget{
+    border: 1px solid #CCC;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.widgettitulo{
+    height: 30px;
+    line-height: 30px;
+    background-color: #DDD;
+    border-bottom: 1px solid #CCC;
+    padding-left: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.widgetconteudo{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 
 
